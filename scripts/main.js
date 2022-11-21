@@ -44,7 +44,7 @@ function new_line(){
   p.setAttribute("class", "path")
   p.textContent = "# user";
   span1.textContent = " in";
-  span2.textContent = " ~/theakhilb";
+  span2.textContent = " ~/hakunamatata1997";
   p.appendChild(span1);
   p.appendChild(span2);
   app.appendChild(p);
@@ -80,7 +80,7 @@ async function getInputValue(){
   else if(value === "projects"){
     trueValue(value);
     createText("Please find my projects here:")
-    createText("<a href='https://github.com/hakunamatata1997' target='_blank'><i class='fab fa-github white'></i> github.com/theakhilb</a>")
+    createText("<a href='https://github.com/hakunamatata1997' target='_blank'><i class='fab fa-github white'></i> github.com/hakunamatata1997</a>")
   }
   else if(value === "about me"){
     trueValue(value);
@@ -89,7 +89,7 @@ async function getInputValue(){
   }
   else if(value === "social -a"){
     trueValue(value);
-    createText("<a href='https://github.com/hakunamatata1997' target='_blank'><i class='fab fa-github white'></i> github.com/theakhilb</a>")
+    createText("<a href='https://github.com/hakunamatata1997' target='_blank'><i class='fab fa-github white'></i> github.com/hakunamatata1997</a>")
     createText("<a href='https://www.linkedin.com/in/theakhilb/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/theakhilb</a>")
   }
   else if(value === "social"){
