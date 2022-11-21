@@ -80,7 +80,7 @@ async function getInputValue(){
   else if(value === "projects"){
     trueValue(value);
     createText("Please find my projects here:")
-    createText("<a href='https://github.com/theakhilb' target='_blank'><i class='fab fa-github white'></i> github.com/theakhilb</a>")
+    createText("<a href='https://github.com/hakunamatata1997' target='_blank'><i class='fab fa-github white'></i> github.com/theakhilb</a>")
   }
   else if(value === "about me"){
     trueValue(value);
@@ -89,9 +89,8 @@ async function getInputValue(){
   }
   else if(value === "social -a"){
     trueValue(value);
-    createText("<a href='https://github.com/theakhilb' target='_blank'><i class='fab fa-github white'></i> github.com/theakhilb</a>")
+    createText("<a href='https://github.com/hakunamatata1997' target='_blank'><i class='fab fa-github white'></i> github.com/theakhilb</a>")
     createText("<a href='https://www.linkedin.com/in/theakhilb/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/theakhilb</a>")
-    createText("<a href='https://www.instagram.com/theakhilb/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/theakhilb</a>")
   }
   else if(value === "social"){
     trueValue(value);
